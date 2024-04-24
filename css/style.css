@@ -137,6 +137,14 @@ md-block li {
     height: 50px;
 }
 
+md-block ul li a, md-block p a {
+    font-size: 15pt;
+    margin-bottom: 5px;
+    color: #2525ef;
+    color: white;
+}
+
+
 
 
 /* slightly modified code from https://unused-css.com/blog/animated-dropdown-menu/ */
@@ -198,7 +206,7 @@ nav .nav-bar .dropdown .project.scrollbar-visible {
     transform: translateX(-45px) translateY(7px);
 }
 nav .nav-bar .dropdown:hover .project{
-    height: 202px;
+    height: 285px;
     visibility: visible;
 }
 
